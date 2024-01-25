@@ -19,3 +19,31 @@ components:
         reviewReasonCode:
           type: string
           description: Review Reason for COT Payment Routing
+    PageDataResponse:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name page
+        description:
+          type: string
+          description: Description
+        screenName:
+          type: string
+          description: Screen Name
+        profileType:
+          type: string
+          description: Screen Profile Type
+        screenType:
+          type: string
+          description: Screen Type
+        sections:
+          type: array
+          items:
+            $ref: '#/components/schemas/Section'
+        searchResultCount:
+          type: number
+          description: Search Result count
+        searchResultMsg: 
+          type: string
+          description: Search Result Message      
