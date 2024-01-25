@@ -37,10 +37,6 @@ components:
         screenType:
           type: string
           description: Screen Type
-        sections:
-          type: array
-          items:
-            $ref: '#/components/schemas/Section'
         searchResultCount:
           type: number
           description: Search Result count
