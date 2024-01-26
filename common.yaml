@@ -3,6 +3,7 @@ components:
   schemas:
     TimeslipRouting:
       type: object
+      name: TimeslipRouting
       properties:
         oid:
           type: number
